@@ -19,6 +19,8 @@ echo 'building lab ...'
 docker-compose build
 echo 'launching lab ...'
 docker-compose up -d
+
+alias snaptel='docker-compose exec snap snaptel'
 echo
 echo 'When you are done with the lab execute:'
 echo '"docker-compose down"'
